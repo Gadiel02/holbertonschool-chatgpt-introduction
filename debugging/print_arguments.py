@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 import sys
 
-for i in range(1, len(sys.argv)):  # Start from index 1 to skip the file name
+for i in range(1, len(sys.argv)):
     print(sys.argv[i])
